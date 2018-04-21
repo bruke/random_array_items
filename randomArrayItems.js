@@ -30,6 +30,6 @@ let randomArrayItems = function (arr, count = 1) {
 
 // Example
 let array = [1,2,3,4,5,6];
-randomArrayItems(arr);   // default get 1 item
-randomArrayItems(arr, 3);  // get 3 items
-randomArrayItems(arr, 10); // wrong count of 10, get all the 6 items
+let result = randomArrayItems(arr);   // default get 1 item
+let result1 = randomArrayItems(arr, 3);  // get 3 items
+let result2 = randomArrayItems(arr, 10); // wrong count of 10, get all the 6 items
